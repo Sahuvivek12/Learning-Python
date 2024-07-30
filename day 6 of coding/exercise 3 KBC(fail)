@@ -1,0 +1,69 @@
+# Kaun Banega Crorepati
+
+# Question No. 1
+
+l = ["What is the color of the sky? \n A. Red B. Green \n C. Blue D. Orange", 
+    "Who is the prime minister of india?\n A. Narendra Modi B. Donald Trump \n C. Rahul Gandhi D. Rishi Sunak",
+    "Where does a Shark live? \n A. Forest B. Clouds \n C. Apartments D. Ocean",
+    "What is the name of the main character in DBZ? \n A. Goku B. Gohan \n C. Cell D. Yamcha",
+    "What color is a Leaf? \n A. Blue B. Green \n C. White D. Pink"]
+
+print("Welcome to kaun banega crorepati, here you can answer questions and win money,\n so get ready,\n heres your first question: \n")
+
+print(l[0])
+a = input("Enter the answer for question no. 1: \n")
+
+if(a == "c"):
+    print("Correct answer, You win 1,000 rupees \n")
+    print(l[1])
+    b = input("Enter the answer for question no. 2: \n")
+    
+    if(b == "a"):
+        print("Correct answer again, you win 5,000 rupees \n")
+        print(l[2])
+    elif(b!="a"):
+        print("Wrong Answer, you lose all the money")
+else:
+    print("Wrong answer")
+
+
+if(b == "a"):
+    c = input("Enter the answer for question 3: \n")
+
+    if(c == "d"):
+        print("WooHoo you win 10,000 rupees \n")
+        print(l[3])
+
+    elif(c != "d"):
+        print("Wrong answer you lose everything")
+
+    if (c == "d"):
+        d = input("Enter the answer for question 4: \n")
+
+        if (d == "a"):
+            print("YOU WIN 50,000 RUPEES \n")
+            print(l[4])
+
+        elif(d != "a"):
+            print("You have lost everything, better luck next time")
+
+
+if(d == "a"):
+    e = input("Enter the answer to question 5: \n")
+
+    if (e == "b"):
+        print("Wow great job! You win 1,00,000 Rupees")
+    elif (e!= "b"):
+        print("You can only take 10,000 rupees home, better luck next time")
+
+
+
+
+
+
+
+
+
+
+
+

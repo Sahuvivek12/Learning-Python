@@ -1,0 +1,4 @@
+
+Printed from within the with block
+Printed from within the with block
+Printed from within the with block
